@@ -6,7 +6,7 @@ require("dotenv/config")
 // ℹ️ Sets the MongoDB URI for our app to have access to it.
 // If no env has been set, we dynamically set it to whatever the folder name was upon the creation of the app
 
-const MONGO_URI = `mongodb+srv://Lebow:km6nevp2@cluster0.ezbcm.mongodb.net/Cinema?authSource=admin&replicaSet=atlas-uwz0p3-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true`
+const MONGO_URI = `mongodb+srv://@cluster0.ezbcm.mongodb.net/Cinema?authSource=admin&replicaSet=atlas-uwz0p3-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true`
 
 mongoose
   .connect(MONGO_URI, {
