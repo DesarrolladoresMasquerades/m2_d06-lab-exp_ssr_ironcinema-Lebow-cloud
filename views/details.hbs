@@ -1,0 +1,13 @@
+
+<img src="{{image}}" alt="Not avaiable">
+<h1>{{title}}</h1>
+    <h2>{{director}}</h2>
+        <h3>{{#each stars}}</h3>
+            <ul>
+                <li>{{this}}</li>
+            </ul>
+            {{/each}}
+        <p>{{description}}</p>
+        {{#each showtimes}}
+        {{this}} |
+        {{/each}}

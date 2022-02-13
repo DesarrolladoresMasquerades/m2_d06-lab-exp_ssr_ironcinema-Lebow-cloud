@@ -6,3 +6,79 @@ body {
 a {
   color: #00B7FF;
 }
+
+.home-page {
+  background-image: url(../images/cinema.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: flex-start;
+  
+
+}
+.flex-container{
+  width:200px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: flex-start;
+  margin-top: 100px;
+  margin-right: 180px;
+}
+
+.home-pageh1{
+  font-size: 100px;
+  color: aliceblue;
+}
+
+
+  .home-pagebutton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.home-pagebutton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.home-pagebutton:active {
+	position:relative;
+	top:1px;
+}
+
+.allMovies {
+  width : 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.oneMovie{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
